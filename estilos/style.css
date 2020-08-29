@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;     
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
+}
+.camposForm{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.camposForm >input{
+    background-color: rgb(175, 175, 175);
+    padding: 10px;
+}
+.formContacto{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+div.camposForm>label{
+    margin-bottom: 10px;
+}
+.alert{
+    background-color: rgb(185, 99, 99);
+}
+.mensajeAlerta{
+    color:red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.boton{
+    padding: 10px 20px 10px 20px;
+}
+.hide{
+    display: none;
+}
